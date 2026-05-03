@@ -1,69 +1,24 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
-
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+# Build Artifacts
+*.bin
+*.com
 *.exe
+*.obj
+*.o
 *.out
-*.app
 
-# Build directories
-build/
-Build/
-build-*/
+# Assembler Listing and Debug Files
+*.lst
+*.map
+*.dbg
+*.sym
 
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
-
-# Temporary files
+# Temporary and Backup Files
 *.tmp
-*.log
 *.bak
 *.swp
+*~
 
-# vcpkg
-vcpkg_installed/
-
-# debug information files
-*.dwo
-
-# test output & cache
-Testing/
-.cache/
+# Emulator Specific (e.g., emu8086)
+# If you use emu8086, it may create virtual drive folders or state files
+/VirtualDrive/
+*.ini
